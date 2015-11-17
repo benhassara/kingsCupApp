@@ -12,3 +12,7 @@ a {
 .button1 {
   margin-left: 45%;
 }
+
+.img-dev {
+    max-height: 250px;
+}

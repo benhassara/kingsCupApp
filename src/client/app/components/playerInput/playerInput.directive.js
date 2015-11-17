@@ -7,7 +7,7 @@
     function playerInputDirective() {
         return {
             restrict: 'E',
-            scope: {},
+            scope: {dev: '='},
             templateUrl: 'app/components/playerInput/playerInput.html',
             controller: PlayerInputCtrl,
             controllerAs: 'vm',
