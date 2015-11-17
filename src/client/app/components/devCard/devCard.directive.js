@@ -7,7 +7,7 @@
     function devCardDirective() {
         return {
             restrict: 'E',
-            scope: {},
+            scope: {dev: '='},
             templateUrl: 'app/components/devCard/devCard.html'
         };
     }

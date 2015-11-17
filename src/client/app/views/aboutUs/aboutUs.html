@@ -1,5 +1,5 @@
-<div class="container">
+<div class="container" ng-controller="AboutUsCtrl as vm">
     <div class="row">
-        <dev-card class="col-xs-6"></dev-card>
+        <dev-card ng-repeat="dev in vm.devs" dev="dev" class="col-xs-6"></dev-card>
     </div>
 </div>
